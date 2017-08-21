@@ -21,7 +21,7 @@ L.TileLayer.WMTS = L.TileLayer.extend({
         //     wmtsParams.width = wmtsParams.height = tileSize;
         // }
         // detecting retina displays, adjusting tileSize and zoom levels
-        if (options.detectRetina && L.Browser.retina && options.maxZoom > 0) {
+        if (options.detectRetina && options.maxZoom > 0) {
 
             options.tileSize = Math.floor(options.tileSize / 2);
             // options.zoomOffset++;
@@ -61,7 +61,7 @@ L.TileLayer.WMTS = L.TileLayer.extend({
         tilewidth =se.x-nw.x;
         zoom=map.getZoom();
 
-        if(this.wmtsParams.detectRetina && L.Browser.retina) {
+        if(this.wmtsParams.detectRetina) {
             zoom++;
         }
 

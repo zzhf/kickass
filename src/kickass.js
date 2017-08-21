@@ -3090,7 +3090,7 @@
         },
         update: function(tdelta) {
             if (this.game.isKeyPressed('F') && this.isReady()) {
-                this.blow();
+                // this.blow();
             }
             if (this.nextBomb === -1 || !this.game.sessionManager.isPlaying) {
                 return;
@@ -3099,7 +3099,7 @@
             if (this.nextBomb < 0) {
                 this.game.menuManager.showBombMenu();
                 this.nextBomb = -1;
-                this.game.ui.showMessage("BOMB IS READY<br />(lower right corner or F)");
+                // this.game.ui.showMessage("BOMB IS READY<br />(lower right corner or F)");
             }
         },
         blow: function() {
@@ -3246,14 +3246,14 @@
         },
         weHaveWon: function() {
             this.isPlaying = false;
-            this.game.ui.showMessage("You're done!");
+            // this.game.ui.showMessage("You're done!");
             if (this.game.isCampaign()) {
                 this.game.menuManager.showMenu();
                 this.game.menuManager.navigateTo('highscores');
             } else {
                 this.game.menuManager.showMenu();
             }
-            this.game.menuManager.sendMessageToMenu("gameFinished:!");
+            // this.game.menuManager.sendMessageToMenu("gameFinished:!");
         }
     });
     var ExplosionManager = new Class({

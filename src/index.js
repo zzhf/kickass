@@ -12,7 +12,8 @@
         },
         zoom: 15,
         zoomControl: false,
-        attributionControl: false
+        attributionControl: false,
+        keyboard: false
     });
     zoomControl = L.control.zoom({
         position: 'bottomright',
@@ -42,4 +43,8 @@
         maxZoom: 17,
         detectRetina: true
     }).addTo(map);
+
+    S.init(function() {
+        document.getElementById('canvasDiv').style.display = 'none';
+    })
 }());
