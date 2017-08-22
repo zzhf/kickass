@@ -50,5 +50,10 @@
         // a();
     })
 
+    var MyGame = new Class({
+        initialize: function() {
 
+        },
+
+    })
 }(window));

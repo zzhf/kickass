@@ -1909,7 +1909,7 @@
         return setTimeout(bind(bound, func), d);
     }
     var KickAss = new Class({
-        initialize: function(options) {
+        initialize: function(options, destroyCallback) {
             if (options && options.mySite) {
                 this.mySite = options.mySite;
             }
@@ -1931,7 +1931,7 @@
             this.menuManager = new MenuManager(this);
             this.menuManager.create();
             if (typeof StatisticsManager !== "undefined") {
-                this.statisticsManager = new StatisticsManager(this);
+                this.statisticsManager = new StatisticsManager(this, destroyCallback);
             }
             this.sessionManager = new SessionManager(this);
             this.lastUpdate = now();
@@ -2161,7 +2161,7 @@
     });
     window.KickAss = KickAss;
     var StatisticsManager = new Class({
-        initialize: function(game) {
+        initialize: function(game, destroyCallback) {
             this.game = game;
             this.data = {};
             this.data.startedPlaying = now();
@@ -2171,6 +2171,7 @@
             this.data.totalPointsThisSession = 0;
             this.data.usedThrusters = 0;
             this.lastUpdate = 0;
+            this.destroyCallback = destroyCallback;
         },
         usedThrusters: function() {
             this.data.usedThrusters = 1;
@@ -2189,6 +2190,7 @@
         },
         addElementsDestroyed: function() {
             this.data.elementsDestroyed++;
+            this.destroyCallback && this.destroyCallback(this.data.elementsDestroyed);
         },
         update: function(tdelta) {
             this.lastUpdate += tdelta;
@@ -3200,6 +3202,8 @@
             return this.isDestroyable(element, true);
         },
         shouldIgnoreElement: function(element, ignoreSize) {
+            if (element.nodeName != 'IMG')
+                return true;
             if (element.nodeType !== 1)
                 return true;
             if (element == document.documentElement || element == document.body)
@@ -3878,7 +3882,7 @@
     });
     var namespace = getGlobalNamespace();
 
-    var initKickAss = function() {
+    var initKickAss = function(destroyCallback) {
         // If an instance of KickAss is already present, we add a player
         if (!namespace.KICKASSGAME) {
             if (namespace.KICKASS_SITE_KEY) {
@@ -3891,8 +3895,9 @@
                     namespace.KICKASSGAME.begin();
                 });
             } else {
-                namespace.KICKASSGAME = GameGlobals.kickass = new KickAss();
+                namespace.KICKASSGAME = GameGlobals.kickass = new KickAss({}, destroyCallback);
                 namespace.KICKASSGAME.begin();
+                return namespace.KICKASSGAME;
             }
         } else {
             namespace.KICKASSGAME.addPlayer();

@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b36d771-66b1-4fd9-a79f-3fa15f257f0a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/semantic-ui/themes/default/assets/fonts/icons.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/semantic-ui/themes/default/assets/fonts/icons.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/semantic-ui/themes/default/assets/fonts/icons.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/semantic-ui/themes/default/assets/fonts/icons.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/semantic-ui/themes/default/assets/fonts/icons.woff2" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/semantic-ui/themes/default/assets/images/flags.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/game.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/semantic-ui/semantic.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/semantic-ui/semantic.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/semantic-ui/semantic.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/semantic-ui/semantic.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/semantic-ui/themes/default/assets/fonts/icons.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/s-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/jquery/jquery-3.2.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/lib/jquery/jquery-3.2.1.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/game.js" afterPath="$PROJECT_DIR$/src/game.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.js" afterPath="$PROJECT_DIR$/src/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/kickass.js" afterPath="$PROJECT_DIR$/src/kickass.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/lib/leaflet/leaflet-tilelayer-wmts-src.js" afterPath="$PROJECT_DIR$/src/lib/leaflet/leaflet-tilelayer-wmts-src.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,25 +22,47 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="755">
-              <caret line="47" column="68" lean-forward="false" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
+            <state relative-caret-position="167">
+              <caret line="85" column="20" lean-forward="true" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="util.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/util.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="545">
-              <caret line="55" column="13" lean-forward="false" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+            <state relative-caret-position="314">
+              <caret line="186" column="10" lean-forward="true" selection-start-line="186" selection-start-column="10" selection-end-line="186" selection-end-column="10" />
               <folding>
-                <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="e#3305#3311#0" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#7107#7113#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="semantic.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/semantic-ui/semantic.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="4843" column="26" lean-forward="true" selection-start-line="4843" selection-start-column="12" selection-end-line="4843" selection-end-column="26" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -58,22 +70,12 @@
       <file leaf-file-name="kickass.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/kickass.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="3092" column="28" lean-forward="false" selection-start-line="3092" selection-start-column="24" selection-end-line="3092" selection-end-column="28" />
+            <state relative-caret-position="184">
+              <caret line="3204" column="0" lean-forward="false" selection-start-line="3204" selection-start-column="0" selection-end-line="3204" selection-end-column="0" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <marker date="1503319791885" expanded="true" signature="94431:94443" ph="..." />
+                <marker date="1503401285557" expanded="true" signature="94621:94633" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="semantic.min.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/semantic-ui/semantic.min.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="10" column="204" lean-forward="true" selection-start-line="10" selection-start-column="204" selection-end-line="10" selection-end-column="204" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -83,6 +85,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="121">
               <caret line="7660" column="14" lean-forward="false" selection-start-line="7660" selection-start-column="6" selection-end-line="7660" selection-end-column="14" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery-3.2.1.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/jquery/jquery-3.2.1.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="8277" column="4" lean-forward="true" selection-start-line="8277" selection-start-column="4" selection-end-line="8277" selection-end-column="4" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -103,8 +117,8 @@
       <file leaf-file-name="game.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/game.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="671">
-              <caret line="50" column="6" lean-forward="false" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+            <state relative-caret-position="734">
+              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -135,6 +149,24 @@
       <find>scorc</find>
       <find>showMessage</find>
       <find>blow</find>
+      <find>isde</find>
+      <find>isDestroyableFromCollision</find>
+      <find>checkCollision</find>
+      <find>checkCollisions</find>
+      <find>parentNode.remove</find>
+      <find>10</find>
+      <find>getGlobalNamespace</find>
+      <find>LAZYLOAD_KICKASS</find>
+      <find>hide</find>
+      <find>display</find>
+      <find>namespace</find>
+      <find>mouse</find>
+      <find>var Class</find>
+      <find>scroll</find>
+      <find>text-align: center</find>
+      <find>CreateElement</find>
+      <find>isdesto</find>
+      <find>isDestroyable</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,11 +176,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/lib/leaflet/leaflet-tilelayer-wmts-src.js" />
+        <option value="$PROJECT_DIR$/src/s-ui.js" />
         <option value="$PROJECT_DIR$/src/game.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/s-ui.js" />
-        <option value="$PROJECT_DIR$/src/kickass.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/kickass.js" />
       </list>
     </option>
   </component>
@@ -158,7 +190,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="260" />
     <option name="y" value="20" />
     <option name="width" value="1400" />
@@ -212,14 +244,6 @@
               <item name="semantic-ui" type="462c0819:PsiDirectoryNode" />
               <item name="semantic.css" type="620a8d5e:NestingTreeNode" />
             </path>
-            <path>
-              <item name="kickass" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kickass" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="semantic-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="semantic.js" type="620a8d5e:NestingTreeNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -237,6 +261,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\zhf\github\kickass\src\lib\jquery" />
       <recent name="D:\zhf\github\kickass\src\lib\semantic-ui" />
       <recent name="D:\zhf\github\kickass\src" />
     </key>
@@ -277,15 +302,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1503307137630</updated>
-      <workItem from="1503307141095" duration="11105000" />
+      <workItem from="1503307141095" duration="38220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11105000" />
+    <option name="totallyTimeSpent" value="38220000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18020834" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -335,28 +360,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/leaflet/leaflet-src.js">
+    <entry file="file://$PROJECT_DIR$/src/lib/jquery/jquery-3.2.1.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="7660" column="14" lean-forward="false" selection-start-line="7660" selection-start-column="6" selection-end-line="7660" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/game.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="671">
-          <caret line="50" column="6" lean-forward="false" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/s-ui.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="148" column="43" lean-forward="true" selection-start-line="148" selection-start-column="43" selection-end-line="148" selection-end-column="43" />
+        <state relative-caret-position="-567">
+          <caret line="1" column="3209" lean-forward="false" selection-start-line="1" selection-start-column="3209" selection-end-line="1" selection-end-column="3209" />
           <folding />
         </state>
       </provider>
@@ -369,33 +376,87 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/kickass.js">
+    <entry file="file://$PROJECT_DIR$/src/game.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="3092" column="28" lean-forward="false" selection-start-line="3092" selection-start-column="24" selection-end-line="3092" selection-end-column="28" />
+        <state relative-caret-position="734">
+          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/leaflet/leaflet-src.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="7660" column="14" lean-forward="false" selection-start-line="7660" selection-start-column="6" selection-end-line="7660" selection-end-column="14" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <marker date="1503319791885" expanded="true" signature="94431:94443" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
+    <entry file="file://$PROJECT_DIR$/src/lib/jquery/jquery-3.2.1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="755">
-          <caret line="47" column="68" lean-forward="false" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="68" />
+        <state relative-caret-position="211">
+          <caret line="8277" column="4" lean-forward="true" selection-start-line="8277" selection-start-column="4" selection-end-line="8277" selection-end-column="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/s-ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="148" column="43" lean-forward="true" selection-start-line="148" selection-start-column="43" selection-end-line="148" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/semantic-ui/semantic.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="4843" column="26" lean-forward="true" selection-start-line="4843" selection-start-column="12" selection-end-line="4843" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="55" column="13" lean-forward="false" selection-start-line="55" selection-start-column="13" selection-end-line="55" selection-end-column="13" />
+        <state relative-caret-position="314">
+          <caret line="186" column="10" lean-forward="true" selection-start-line="186" selection-start-column="10" selection-end-line="186" selection-end-column="10" />
           <folding>
-            <element signature="n#style#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#3305#3311#0" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="e#7107#7113#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/kickass.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="3204" column="0" lean-forward="false" selection-start-line="3204" selection-start-column="0" selection-end-line="3204" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1503401285557" expanded="true" signature="94621:94633" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="85" column="20" lean-forward="true" selection-start-line="85" selection-start-column="20" selection-end-line="85" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
