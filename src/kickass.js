@@ -3202,8 +3202,7 @@
             return this.isDestroyable(element, true);
         },
         shouldIgnoreElement: function(element, ignoreSize) {
-            if (element.nodeName != 'IMG')
-                return true;
+
             if (element.nodeType !== 1)
                 return true;
             if (element == document.documentElement || element == document.body)
@@ -3228,7 +3227,29 @@
                 rect = getRect(element);
             if (rect.top >= this.game.scrollSize.y)
                 return true;
+            if (element.nodeName != 'IMG')
+                return true;
+            // if (!this.isOnSreen(element))
+            //     return true;
             return false;
+        },
+        isOnSreen: function(element) {
+            var elementOffset,
+                _self = this;
+            this.win = this.win || document.getElementsByTagName('body')[0];
+            this.winOffset =this.winOffset || {
+                left: _self.win.scrollLeft,
+                top: _self.win.scrollTop,
+                right: _self.win.scrollLeft + _self.win.clientWidth,
+                bottom: _self.win.scrollTop + _self.win.clientHeight
+            };
+            elementOffset = {
+                left: element.offsetLeft,
+                top: element.offsetTop,
+                right: element.offsetLeft + element.offsetWidth,
+                bottom: element.scrollTop + element.offsetHeight
+            }
+            return  !(elementOffset.left > this.winOffset.right || this.winOffset.left > elementOffset.right || elementOffset.top > this.winOffset.bottom || this.winOffset.top > elementOffset.bottom);
         },
         destroy: function() {
             for (var key in this.bullets)
